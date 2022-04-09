@@ -11,7 +11,102 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
+    <form action="">
+    <span>Personal information</span>
+    <div class="headline">
+        <div class="form">
+          Surname:
+          <input type="text"  name="lname"><br>
+        </div>
+
+        <div class="form-name">
+          Name:
+          <input type="text"  name="fname">
+        </div>
+
+        <div class="form">
+          How old are you?
+          <input type="number">
+        </div>
+
+        <div class="form">
+          Full date of birth:
+          <input type="date">
+        </div>
+
+        <div>
+          I accept the term of the agreement
+          <input type="checkbox">
+        </div>
+    </div>
+    
+    <span>Registration</span>
+    <div class="headline">
+        <div class="form">
+          E-mail:
+          <input type="email" placeholder="email@example.com">
+        </div>
+
+        <div class="form">
+          Password:
+          <input type="password">
+        </div>
+    </div>  
+
+    <span>An interesting fact about you!</span>
+    <div class="headline">
+        <div class="form">
+          Do you love cats?
+            <label>
+              <input type="radio" name="lovecats" value="trye">
+                Yes
+            </label>
+            <label>
+              <input type="radio" name="lovecats" value="false">
+                No
+            </label>
+        </div>
+    
+        <div class="form">
+           What is your favirite color?
+          <input type="color">
+        </div>
+
+        <div class="form">
+          What time do you go to bed?
+          <input type="time">
+        </div>
+    
+        <div class="form">
+          What are your favorite brand of cars?
+          <select name="cars" multiple>
+            <option>BMW</option>
+            <option>Audi</option>
+            <option>Lada</option>
+          </select>
+        </div>
+
+        <div class="form">
+          How do you rate our work?
+          <input type="range">
+        </div>
+    </div> 
+   
+    <span>Additional info:</span>
+    <div class="headline">
+      <div>
+        Comments:
+        <input type="text">
+      </div>
+
+      <div>
+        Would you recommend us?
+      </div>
+    </div>
+
+    <input type="submit">
+
     <script type="text/javascript" src="./main.js"></script>
+  </form>
   </body>
 </html>
