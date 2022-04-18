@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action="">
-    <span>Personal information</span>
-    <div class="headline">
+    <form action="http://localhost:8080/" method="post">
+      <span>Personal information</span>
+      <div class="headline">
         <div class="form">
           Surname:
           <input type="text"  name="lname"><br>
@@ -38,10 +38,10 @@
           I accept the term of the agreement
           <input type="checkbox">
         </div>
-    </div>
+      </div>
     
-    <span>Registration</span>
-    <div class="headline">
+      <span>Registration</span>
+      <div class="headline">
         <div class="form">
           E-mail:
           <input type="email" placeholder="email@example.com">
@@ -51,22 +51,24 @@
           Password:
           <input type="password">
         </div>
-    </div>  
+      </div>  
 
-    <span>An interesting fact about you!</span>
-    <div class="headline">
+      <span>An interesting fact about you!</span>
+      <div class="headline">
         <div class="form">
           Do you love cats?
-            <label>
-              <input type="radio" name="lovecats" value="trye">
-                Yes
-            </label>
-            <label>
-              <input type="radio" name="lovecats" value="false">
+          <label>
+            <input type="radio" name="lovecats"
+              value="trye">
+               Yes
+          </label>
+          <label>
+            <input type="radio" name="lovecats" 
+              value="false">
                 No
-            </label>
+          </label>
         </div>
-    
+  
         <div class="form">
            What is your favirite color?
           <input type="color">
@@ -90,23 +92,23 @@
           How do you rate our work?
           <input type="range">
         </div>
-    </div> 
+      </div> 
    
-    <span>Additional info:</span>
-    <div class="headline">
-      <div>
+      <span>Additional info:</span>
+      <div class="headline">
+        <div>
         Comments:
-        <input type="text">
-      </div>
+          <input type="text">
+        </div>
 
-      <div>
+        <div>
         Would you recommend us?
+        </div>
       </div>
-    </div>
 
-    <input type="submit">
+      <input type="submit">
 
-    <script type="text/javascript" src="./main.js"></script>
-  </form>
+      <script type="text/javascript" src="./main.js"></script>
+    </form>
   </body>
 </html>

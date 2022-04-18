@@ -1,15 +1,17 @@
 /* styles go here */
 div {
-    padding: 4px;
+  padding: 4px;
 }
+
 .headline {
-    border: solid 1px black;
-    margin:  10px 10px 10px 10px ;
+  border: solid 1px black ;
+  margin: 10px;
 }
+
 span {
-    position: relative;
-    top: 20px;
-    right: 10px;
-    left: 20px;
-    background: white;
+  position: relative;
+  top: 20px;
+  right: 10px;
+  left: 20px;
+  background: white;
 }
