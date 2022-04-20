@@ -1,17 +1,12 @@
 /* styles go here */
 div {
-  padding: 4px;
+  margin-bottom: 10px;
 }
 
 .headline {
-  border: solid 1px black ;
-  margin: 10px;
+  margin: 20px  auto;
 }
 
-span {
-  position: relative;
-  top: 20px;
-  right: 10px;
-  left: 20px;
-  background: white;
+fieldset {
+  padding-bottom: 1px;
 }
