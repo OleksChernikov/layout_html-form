@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AACA,aACE,gBACF,CAEA,UACE,kBACF","file":"style.bdca6028.css","sourceRoot":"..\\src","sourcesContent":["/* styles go here */\n.form__field {\n  padding-top: 10px;\n}\n\n.headline {\n  margin-bottom: 20px;\n}\n"]}
