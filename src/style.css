@@ -1,53 +1,5 @@
 /* styles go here */
-.surname {
-  margin-bottom: 10px;
-}
-
-.name {
-  margin-bottom: 10px;
-}
-
-.age {
-  margin-bottom: 10px;
-}
-
-.birth-date {
-  margin-bottom: 10px;
-}
-
-.email {
-  margin-bottom: 10px;
-}
-
-.password {
-  margin-bottom: 10px;
-}
-
-.love-cats {
-  margin-bottom: 10px;
-}
-
-.favorite-color {
-  margin-bottom: 10px;
-}
-
-.go-to-bed {
-  margin-bottom: 10px;
-}
-
-.favorite-cars {
-  margin-bottom: 10px;
-}
-
-.rate-work {
-  margin-bottom: 10px;
-}
-
-.comments {
-  margin-bottom: 10px;
-}
-
-.selection {
+.form__field {
   margin-bottom: 10px;
 }
 
