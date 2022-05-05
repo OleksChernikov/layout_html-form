@@ -1,9 +1,8 @@
 /* styles go here */
 .form__field {
-  margin-bottom: 10px;
+  padding-top: 10px;
 }
 
 .headline {
-  margin: 20px  auto;
-  padding-bottom: 1px;
+  margin-bottom: 20px;
 }
